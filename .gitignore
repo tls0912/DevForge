@@ -1,0 +1,25 @@
+# Local logs
+logs/*
+!logs/.gitkeep
+
+# Local backups
+backup/*
+!backup/.gitkeep
+
+# Secrets and private configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*.local.json
+
+# Temporary files
+*.tmp
+*.log
